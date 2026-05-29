@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 997,
+  "response_rate": 0.997,
+  "f1": 0.8992248062015504,
+  "precision": 1.0,
+  "recall": 0.8169014084507042,
+  "accuracy": 0.9087261785356068,
+  "mode": "b2",
+  "prompt_style": "default",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data/b2/xlcost_java_csharp/test.jsonl"
+  ]
+}

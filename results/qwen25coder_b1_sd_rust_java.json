@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 253,
+  "response_rate": 0.253,
+  "f1": 0.7859649122807018,
+  "precision": 0.7671232876712328,
+  "recall": 0.8057553956834532,
+  "accuracy": 0.758893280632411,
+  "mode": "b1",
+  "checkpoint": "runs/v2_qwen25coder_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_sd/rust_java.jsonl"
+  ]
+}

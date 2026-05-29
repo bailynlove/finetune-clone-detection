@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 139,
+  "response_rate": 0.139,
+  "f1": 0.24175824175824176,
+  "precision": 1.0,
+  "recall": 0.1375,
+  "accuracy": 0.5035971223021583,
+  "mode": "b1",
+  "checkpoint": "runs/v2_qwen25coder_b1_train_a_seed42",
+  "test_files": [
+    "dataset/poj104/test_b1.jsonl"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 260,
+  "response_rate": 0.26,
+  "f1": 0.6206896551724138,
+  "precision": 0.75,
+  "recall": 0.5294117647058824,
+  "accuracy": 0.7038461538461539,
+  "mode": "b1",
+  "prompt_style": "default",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_dd/python_java.jsonl"
+  ]
+}

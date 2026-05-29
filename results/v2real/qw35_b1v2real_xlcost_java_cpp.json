@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.9329073482428115,
+  "precision": 0.9977220956719818,
+  "recall": 0.876,
+  "accuracy": 0.937,
+  "mode": "b1",
+  "prompt_style": "default",
+  "checkpoint": "runs/v2real_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data/b1/xlcost_java_cpp/test.jsonl"
+  ]
+}

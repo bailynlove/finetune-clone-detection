@@ -1,0 +1,14 @@
+{
+  "n_total": 1799,
+  "n_parseable": 471,
+  "response_rate": 0.26181211784324626,
+  "f1": 0.5524475524475524,
+  "precision": 1.0,
+  "recall": 0.38164251207729466,
+  "accuracy": 0.7282377919320594,
+  "mode": "b1",
+  "checkpoint": "runs/v2_qwen25coder_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data/b1/gptclone_python_cpp/test.jsonl"
+  ]
+}

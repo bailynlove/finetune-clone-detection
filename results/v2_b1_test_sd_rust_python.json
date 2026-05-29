@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.7923771313941825,
+  "precision": 0.7947686116700201,
+  "recall": 0.79,
+  "accuracy": 0.793,
+  "mode": "b1",
+  "checkpoint": "runs/v2_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_sd/rust_python.jsonl"
+  ]
+}

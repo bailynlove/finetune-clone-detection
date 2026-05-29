@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 303,
+  "response_rate": 0.303,
+  "f1": 0.7588652482269503,
+  "precision": 0.7328767123287672,
+  "recall": 0.7867647058823529,
+  "accuracy": 0.7755775577557755,
+  "mode": "b1",
+  "prompt_style": "default",
+  "checkpoint": "runs/v2_qwen25coder_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_dd/python_java.jsonl"
+  ]
+}

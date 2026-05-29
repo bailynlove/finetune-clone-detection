@@ -1,0 +1,21 @@
+Semantic Benchmark/
+gpt_clones/
+venv/
+GPTCloneBench/
+cloneCognition_input/
+test/
+test_nicad/
+*.log
+*.txt
+*.zip
+.vscode/
+!.gitignore
+!distinctive_config.txt
+!type34_config.txt
+!cross_language_process_config.txt
+!process_semanticbench_config.txt
+gpt4clonedata/
+!requirements.txt
+!standalone.zip
+!cross_language.zip
+!cross_language_part_2.zip

@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 257,
+  "response_rate": 0.257,
+  "f1": 0.6519823788546255,
+  "precision": 1.0,
+  "recall": 0.48366013071895425,
+  "accuracy": 0.6926070038910506,
+  "mode": "b1",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_dd/scala_java.jsonl"
+  ]
+}

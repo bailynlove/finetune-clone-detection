@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 293,
+  "response_rate": 0.293,
+  "f1": 0.7703703703703704,
+  "precision": 1.0,
+  "recall": 0.6265060240963856,
+  "accuracy": 0.78839590443686,
+  "mode": "b1",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_sd/python_ruby.jsonl"
+  ]
+}

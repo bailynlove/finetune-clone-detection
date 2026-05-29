@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 253,
+  "response_rate": 0.253,
+  "f1": 0.5687203791469194,
+  "precision": 0.6976744186046512,
+  "recall": 0.48,
+  "accuracy": 0.6403162055335968,
+  "mode": "b1",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_dd/rust_java.jsonl"
+  ]
+}

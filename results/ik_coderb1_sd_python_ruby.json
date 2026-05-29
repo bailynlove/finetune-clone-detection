@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 126,
+  "response_rate": 0.126,
+  "f1": 0.974025974025974,
+  "precision": 1.0,
+  "recall": 0.9493670886075949,
+  "accuracy": 0.9682539682539683,
+  "mode": "b1",
+  "prompt_style": "iankappa",
+  "checkpoint": "runs/v2_qwen25coder_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_sd/python_ruby.jsonl"
+  ]
+}

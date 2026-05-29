@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.9880952380952381,
+  "precision": 0.9803149606299213,
+  "recall": 0.996,
+  "accuracy": 0.988,
+  "mode": "b1ctrl",
+  "checkpoint": "/data1/clone-test/runs/b1ctrl_train_a_seed42",
+  "test_files": [
+    "/data1/clone-test/dataset/finetune_data/b1ctrl/test_dd/rust_ruby.jsonl"
+  ]
+}

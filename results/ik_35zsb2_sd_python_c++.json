@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.39486356340288925,
+  "precision": 1.0,
+  "recall": 0.246,
+  "accuracy": 0.623,
+  "mode": "b2",
+  "prompt_style": "iankappa",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data_v2/b2/test_sd/python_c++.jsonl"
+  ]
+}

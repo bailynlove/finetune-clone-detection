@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.992,
+  "precision": 0.992,
+  "recall": 0.992,
+  "accuracy": 0.992,
+  "mode": "b1ctrl",
+  "checkpoint": "runs/b1ctrl_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data/b1ctrl/test_dd_1000/python_java.jsonl"
+  ]
+}

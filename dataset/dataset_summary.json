@@ -1,0 +1,73 @@
+{
+  "python_java": {
+    "l1": "Python",
+    "l2": "Java",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 2246,
+    "train_a": 20000,
+    "train_b": 10000,
+    "zeroshot_w1": 200
+  },
+  "python_c++": {
+    "l1": "Python",
+    "l2": "C++",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 2486,
+    "train_b": 10000
+  },
+  "python_ruby": {
+    "l1": "Python",
+    "l2": "Ruby",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 2152
+  },
+  "java_ruby": {
+    "l1": "Java",
+    "l2": "Ruby",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 2195
+  },
+  "rust_java": {
+    "l1": "Rust",
+    "l2": "Java",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 2095,
+    "train_b": 10000,
+    "zeroshot_w1": 200
+  },
+  "rust_python": {
+    "l1": "Rust",
+    "l2": "Python",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 1929,
+    "zeroshot_w1": 200
+  },
+  "rust_ruby": {
+    "l1": "Rust",
+    "l2": "Ruby",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 1924,
+    "zeroshot_w1": 200
+  },
+  "kotlin_java": {
+    "l1": "Kotlin",
+    "l2": "Java",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 2030
+  },
+  "scala_java": {
+    "l1": "Scala",
+    "l2": "Java",
+    "test_sd": 1000,
+    "test_dd": 1000,
+    "val": 2030
+  }
+}

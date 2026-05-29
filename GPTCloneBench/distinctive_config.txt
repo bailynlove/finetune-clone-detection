@@ -1,0 +1,13 @@
+[config]
+type4_cap = 50
+type3_cap = 75
+target_lang = [targeted language: c/cs/java/py]
+input_dir = [semantic clone directory]
+dest_type3 = [location to save moderate type 3 clones]
+dest_type4 = [location to save weak type 3 or type 4 clones]
+nicad_output = [location to save NiCad results]
+semantic_output = [csv file location where semantic clones will be saved]
+raw_output = [csv file location where all the files will be saved]
+nicad_loc = [NiCad installation location]
+nicad_folder = [folder location where input and output files will be saved for NiCad Process]
+ignore_file_list = [txt file of ignoring file names]

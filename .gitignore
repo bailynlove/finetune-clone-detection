@@ -1,0 +1,43 @@
+# ── Model checkpoints (large binary files) ────────────────────────────────────
+runs/
+
+# ── Generated images (can be rebuilt via pipeline/02_render_images.py) ─────────
+dataset/images/
+dataset/poj104/images/
+
+# ── Raw datasets (download instructions in dataset/README.md) ──────────────────
+Project_CodeNet/
+dataset/finetune_data/
+dataset/finetune_data_v2/
+dataset/gptclonebench_code/
+dataset/poj104/test_b1.jsonl
+dataset/poj104/test_b2.jsonl
+XLCoST/XLCoST_data/
+XLCoST/__MACOSX/
+XLCoST/xlcost.zip
+GPTCloneBench/cross_language.zip
+GPTCloneBench/cross_language_part_2.zip
+GPTCloneBench/GPTCloneBench_semantic_standalone_clones.zip
+GPTCloneBench/cross_cs_to_other/
+GPTCloneBench/cross_java_to_other/
+GPTCloneBench/cs_to_other/
+GPTCloneBench/java_to_other/
+CodeXGLUE_POJ104/
+
+# ── Python build artifacts ─────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ── Claude Code local settings ─────────────────────────────────────────────────
+.claude/
+
+# ── Training / eval logs (verbose, contain progress bars) ─────────────────────
+logs/
+runs/*.log
+
+# ── OS / editor ────────────────────────────────────────────────────────────────
+.DS_Store
+*.swp
+*.swo

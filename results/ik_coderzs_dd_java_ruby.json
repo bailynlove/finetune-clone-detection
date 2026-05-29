@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 132,
+  "response_rate": 0.132,
+  "f1": 0.8666666666666667,
+  "precision": 0.9811320754716981,
+  "recall": 0.7761194029850746,
+  "accuracy": 0.8787878787878788,
+  "mode": "b1",
+  "prompt_style": "iankappa",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_dd/java_ruby.jsonl"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "n_total": 2000,
+  "n_parseable": 2000,
+  "response_rate": 1.0,
+  "f1": 0.7896009673518742,
+  "precision": 0.9984709480122325,
+  "recall": 0.653,
+  "accuracy": 0.826,
+  "mode": "b1",
+  "checkpoint": "runs/v2_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data/b1/gptclone_java_python_2000/test.jsonl"
+  ]
+}

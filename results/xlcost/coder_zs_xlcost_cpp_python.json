@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 125,
+  "response_rate": 0.125,
+  "f1": 0.9931972789115646,
+  "precision": 1.0,
+  "recall": 0.9864864864864865,
+  "accuracy": 0.992,
+  "mode": "b1",
+  "prompt_style": "default",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data/b1/xlcost_cpp_python/test.jsonl"
+  ]
+}

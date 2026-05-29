@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.9910269192422732,
+  "precision": 0.9880715705765407,
+  "recall": 0.994,
+  "accuracy": 0.991,
+  "mode": "b1",
+  "checkpoint": "/data1/clone-test/runs/b1_train_a_seed42",
+  "test_files": [
+    "/data1/clone-test/dataset/finetune_data/b1/test_dd/rust_java.jsonl"
+  ]
+}

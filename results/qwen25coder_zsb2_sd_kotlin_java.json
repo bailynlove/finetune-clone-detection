@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 301,
+  "response_rate": 0.301,
+  "f1": 0.7526132404181185,
+  "precision": 1.0,
+  "recall": 0.6033519553072626,
+  "accuracy": 0.7641196013289037,
+  "mode": "b2",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data_v2/b2/test_sd/kotlin_java.jsonl"
+  ]
+}

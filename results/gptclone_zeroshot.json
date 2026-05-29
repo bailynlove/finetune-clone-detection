@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.4686064318529862,
+  "precision": 1.0,
+  "recall": 0.306,
+  "accuracy": 0.653,
+  "mode": "b1",
+  "checkpoint": null,
+  "test_files": [
+    "dataset/finetune_data/b1/gptclone_java_python/test.jsonl"
+  ]
+}

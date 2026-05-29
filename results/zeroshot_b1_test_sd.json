@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.3660130718954248,
+  "precision": 1.0,
+  "recall": 0.224,
+  "accuracy": 0.612,
+  "mode": "b1",
+  "checkpoint": null,
+  "test_files": [
+    "/data1/clone-test/dataset/finetune_data/b1/test_sd/python_java.jsonl"
+  ]
+}

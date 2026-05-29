@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 277,
+  "response_rate": 0.277,
+  "f1": 0.8252788104089219,
+  "precision": 1.0,
+  "recall": 0.7025316455696202,
+  "accuracy": 0.8303249097472925,
+  "mode": "b1",
+  "checkpoint": "runs/v2_qwen25coder_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_dd/scala_java.jsonl"
+  ]
+}

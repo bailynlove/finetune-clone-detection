@@ -1,0 +1,15 @@
+{
+  "n_total": 2246,
+  "n_parseable": 2246,
+  "response_rate": 1.0,
+  "f1": 0.8047904191616766,
+  "precision": 0.7272727272727273,
+  "recall": 0.900804289544236,
+  "accuracy": 0.8548530721282279,
+  "mode": "b2",
+  "prompt_style": "default",
+  "checkpoint": "runs/v2real_b2_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data_v2/b2/val/python_java.jsonl"
+  ]
+}

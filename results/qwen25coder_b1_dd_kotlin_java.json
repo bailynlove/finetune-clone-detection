@@ -1,0 +1,14 @@
+{
+  "n_total": 1000,
+  "n_parseable": 252,
+  "response_rate": 0.252,
+  "f1": 0.8429752066115702,
+  "precision": 1.0,
+  "recall": 0.7285714285714285,
+  "accuracy": 0.8492063492063492,
+  "mode": "b1",
+  "checkpoint": "runs/v2_qwen25coder_b1_train_a_seed42",
+  "test_files": [
+    "dataset/finetune_data_v2/b1/test_dd/kotlin_java.jsonl"
+  ]
+}

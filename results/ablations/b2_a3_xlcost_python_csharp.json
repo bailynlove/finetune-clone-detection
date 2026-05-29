@@ -1,0 +1,15 @@
+{
+  "n_total": 1000,
+  "n_parseable": 1000,
+  "response_rate": 1.0,
+  "f1": 0.7577639751552795,
+  "precision": 1.0,
+  "recall": 0.61,
+  "accuracy": 0.805,
+  "mode": "b2",
+  "prompt_style": "default",
+  "checkpoint": "runs/b2_a3_combined_20k",
+  "test_files": [
+    "dataset/finetune_data/b2/xlcost_python_csharp/test.jsonl"
+  ]
+}
