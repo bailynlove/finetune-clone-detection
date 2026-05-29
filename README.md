@@ -186,6 +186,39 @@ Training data: `train_a` split, Python↔Java pairs only.
 | A2: augment 5k/1ep | 0.842 | — |
 | A3: combined 20k/3ep | 0.857 | 0.836 |
 
+### GPTCloneBench — Java↔Python (2000-pair balanced subset)
+
+Semantic cross-language clones from GPTCloneBench. All pairs are Java↔Python.
+"B1-old / B2-old" = v1 training data; "B1-v2 / B2-v2" = v2 training data (HARD_NEG).
+
+| Model | F1 | Precision | Recall |
+|---|---|---|---|
+| 3.5 ZS-B1 | 0.486 | 1.000 | 0.321 |
+| 3.5 ZS-B2 | 0.596 | 1.000 | 0.425 |
+| Coder-3B ZS-B1 | 0.833 | 1.000 | 0.713 |
+| Coder-3B ZS-B2 | 0.832 | 1.000 | 0.712 |
+| Coder-3B B1-old | 0.672 | 1.000 | 0.506 |
+| 3.5 B1-old | 0.998 | 0.999 | 0.997 |
+| **3.5 B2-old** | **0.999** | 0.999 | 0.999 |
+| 3.5 B1-v2 | 0.790 | 0.998 | 0.653 |
+| **3.5 B2-v2** | **0.970** | 0.999 | 0.943 |
+
+> Note: GPTCloneBench is same-language (Java↔Python only) and in-distribution for models trained on Python↔Java pairs, so high scores for B1-old/B2-old are expected. The v2 models score lower because HARD_NEG training makes the model more conservative.
+
+### GPTCloneBench — Cross-Language (v2 models, F1)
+
+Four language pairs from GPTCloneBench cross-language evaluation.
+
+| Model | j↔cpp | j↔cs | py↔cpp | py↔cs | **Avg** |
+|---|---|---|---|---|---|
+| 3.5 ZS-text | 0.301 | 0.589 | 0.461 | 0.651 | 0.500 |
+| 3.5 ZS-B2 | 0.398 | 0.698 | 0.572 | 0.737 | 0.601 |
+| Coder-3B ZS-text | 0.647 | 0.962 | 0.556 | 0.919 | 0.771 |
+| Coder-3B ZS-B2 | 0.626 | 0.920 | 0.637 | 0.875 | 0.765 |
+| Coder-3B B1-old | 0.626 | 0.806 | 0.552 | 0.716 | 0.675 |
+| 3.5 B1-v2 | 0.777 | 0.860 | 0.859 | 0.874 | 0.843 |
+| **3.5 B2-v2** | **0.971** | **0.996** | **0.986** | **0.997** | **0.988** |
+
 ---
 
 ## Key Findings
